@@ -11,12 +11,14 @@ const checkUsersCredentials = async (email, password) => {
         if(verifyPassword){
             return user
         } 
-        return null
+        return null //coregir el bug
     } catch (error) {
         return null
     }
 }
 
+
+//no es necesario para el chat api- pero si para el skeleton
 const createRecoveryToken = async (email) => {
     try {
         const user = await findUserByEmail(email)

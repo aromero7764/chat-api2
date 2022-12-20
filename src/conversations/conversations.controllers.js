@@ -31,6 +31,13 @@ const findConversationById = async (id) => {
     return data
 }
 
+
+/* 
+Necesitamos crear una conversacion entre Sahid y Erik , cuando creas 
+la conversacion es necesario 
+crear los 2 participantes que estaran en esa conversacion que acabas de crear 
+*/
+
 const createConversation = async (obj) => {
     const newConversation = await Conversations.create({
         id: uuid.v4(),
@@ -77,6 +84,8 @@ const removeConversation = async (id) => {
     return data
 }
 
+
+//creando una conversacion prueba
 //* createConversation({
 //*     title: 'Conversacion Sahid - Evertz',//? Titulo del chat
 //*     ownerId: 'db8b69e8-3233-43a0-a0b1-87774ffc8566', //? Evertz como owner
