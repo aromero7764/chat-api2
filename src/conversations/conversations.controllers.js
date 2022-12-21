@@ -86,13 +86,13 @@ const removeConversation = async (id) => {
 
 
 //creando una conversacion prueba
-//* createConversation({
-//*     title: 'Conversacion Sahid - Evertz',//? Titulo del chat
-//*     ownerId: 'db8b69e8-3233-43a0-a0b1-87774ffc8566', //? Evertz como owner
-//*     participantId: 'c4a8c88d-37a8-4c38-b251-8cef07c33145' //? Sahid como invitado
-//* })
-//* .then(data => console.log(data))
-//* .catch(err => console.log(err))
+/*  createConversation({
+     title: 'Conversacion Alberto - Erick',//? Titulo del chat
+    ownerId: '20be8b2c-2c8c-46ca-b09a-fdae94873f8d', //? Evertz como owner
+     participantId: '7a076625-8615-4a8b-8fdf-6ca653a92a33' //? Sahid como invitado
+ })
+ .then(data => console.log(data))
+ .catch(err => console.log(err)) */
 
 module.exports = {
     findAllConversations,
