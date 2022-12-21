@@ -92,7 +92,9 @@ const removeConversation = async (id) => {
      participantId: '7a076625-8615-4a8b-8fdf-6ca653a92a33' //? Sahid como invitado
  })
  .then(data => console.log(data))
- .catch(err => console.log(err)) */
+ .catch(err => console.log(err)) 
+ 
+ */
 
 module.exports = {
     findAllConversations,
